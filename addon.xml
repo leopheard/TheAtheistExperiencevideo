@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.theatheistexperience"
+	name="The Atheist Experience"
+	version="1.0.0"
+	provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Atheist Experience video addon</summary>
+    <description lang="en">The Atheist Experience is a weekly show in Austin, Texas geared at a non-atheist  and atheist audience. The Atheist Experience is produced by the Atheist Community of Austin.</description>
+    <platform>all</platform>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/theatheistexperiencevideo.git</source>
+    <website>http://www.atheist-experience.com/</website>
+    <audio_guide></audio_guide>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/screen1.jpg</screenshot>
+			<screenshot>resources/media/screen2.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
